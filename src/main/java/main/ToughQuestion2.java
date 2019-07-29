@@ -45,11 +45,24 @@ class ToughQuestion2 {
 }
 class Calories {
             
-            int calculateCalories() {
+            int calculateCalories(int a, int b,int c) {
             //you have to overload this function for three parameters refer the question
-            	return -1;
+            	int total=((74*a)+(26*b)+(102*c));	
+            	return total;
             }
-            
+             
+            int calculateCalories(int a, int b) {
+                //you have to overload this function for three parameters refer the question
+                int total=((74*a)+(26*b));	
+            	return total;
+                }
+            int calculateCalories(int a) {
+                //you have to overload this function for three parameters refer the question
+                int total=	(74*a);
+            	return total;
+                }
+                
+                
             
             
 }
